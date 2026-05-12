@@ -1,0 +1,26 @@
+# Python cache and virtualenv artifacts
+__pycache__/
+*.py[cod]
+*.pyd
+.python-version
+.venv/
+venv/
+env/
+
+# Build and packaging outputs
+dist/
+*.zip
+
+# Local test outputs and generated circuit copies
+testing/student_output/
+testing/student_output_unmasked/
+testing/circ_files/proj_2_2_top.circ
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
